@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7ed756">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#7ed756">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logow" />
+
+            <Button
+                android:onClick="setOnClickListener"
+                android:id="@+id/loginbtn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="18dp"
+                android:layout_gravity="center"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#C1FF72"/>
+
+            <Button
+                android:onClick="setOnClickListener"
+                android:id="@+id/registerbtn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="18dp"
+                android:layout_gravity="center"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#C1FF72"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="150dp"
+                android:text="Copyright © 2023 Sumaiya Parveen, All rights reserved."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584178414973",
+    "project_id": "dailybp-tracker",
+    "storage_bucket": "dailybp-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584178414973:android:a6140946ac7cb5721e8814",
+        "android_client_info": {
+          "package_name": "com.dailybptracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxwurMXEn9iAt-ash4s1of--KzjvviszE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584178414973:android:13d996c2358d80321e8814",
+        "android_client_info": {
+          "package_name": "com.sumaiya.dailybptracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxwurMXEn9iAt-ash4s1of--KzjvviszE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
